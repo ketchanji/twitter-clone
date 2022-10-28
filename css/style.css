@@ -1,0 +1,445 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+.container_1{
+    width: 50%;
+    background-image: url(/images/lohp_en_850x623.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container_1 .img{
+    width: 40%;
+    height: 70vh;
+    position: absolute;
+    top: 6rem;
+    left: 4rem;
+}
+.container_2{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+}
+.logo{
+    width: 10%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-image: url(/images/124021-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    width: 100%;
+    height: 90px;
+    margin-top: 4rem;
+}
+.text h1{
+    font-size: 75px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.buttons{
+    width: 60%;
+    height: 40vh;
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.buttons h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.btn1{
+    width: 88%;
+    height: 35px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .4s;
+}
+.btn1:hover{
+    background-color: rgb(180, 169, 155);
+}
+.btn2{
+    width: 88%;
+    height: 35px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .4s;
+}
+.btn2:hover{
+    background-color: rgb(180, 169, 155);
+}
+.btn3{
+    width: 88%;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: rgb(36, 111, 196);
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .4s;
+}
+.btn3:hover{
+    background-color: rgb(19, 67, 122);
+}
+hr{
+    width: 190px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 89px;
+}
+.buttons p{
+    font-size: 13px;
+    padding-left: 17px;
+    color: rgb(180, 171, 171);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons span{
+    color: rgb(38, 160, 216);
+}
+.sub-button{
+    width: 60%;
+    height: 13vh;
+    margin-top: 40px;
+    margin-left: 30px;  
+}
+.sub-button p{
+    color: #fff;
+    font-size: 20px;
+}
+.btn4{
+    width: 88%;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(36, 111, 196);
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 800;
+    transition: .4s;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .container_1 .img{
+        width: 35%;
+        height: 70vh;
+        position: absolute;
+        top: 8rem;
+        left: 6rem;
+    }
+    .img img{
+        width: 290px;
+        height: 50vh;
+    }
+    .logo{
+        width: 10%;
+        height: 50px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .text{
+        width: 100%;
+        height: 80px;
+        margin-top: 3rem;
+    }
+    .text h1{
+        font-size: 55px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    .buttons{
+        width: 70%;
+        height: 40vh;
+        margin-top: 10px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons h2{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    hr{
+        width: 190px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin-left: 65px;
+    }
+    .sub-button{
+        width: 70%;
+        height: 13vh;
+        margin-top: 40px;
+        margin-left: 30px;  
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container_1 .img{
+        width: 30%;
+        height: 60vh;
+        position: absolute;
+        top: 8rem;
+        left: 3rem;
+    }
+    .img img{
+        width: 290px;
+        height: 50vh;
+    }
+    .logo{
+        width: 10%;
+        height: 50px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .text{
+        width: 100%;
+        height: 80px;
+        margin-top: 3rem;
+    }
+    .text h1{
+        font-size: 45px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    .buttons{
+        width: 70%;
+        height: 40vh;
+        margin-top: 10px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons h2{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    hr{
+        width: 190px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin-left: 40px;
+    }
+    .sub-button{
+        width: 70%;
+        height: 13vh;
+        margin-top: 40px;
+        margin-left: 30px;  
+    }
+}
+@media only screen and (max-width: 425px) {
+    .section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+    }
+    .container_1{
+        display: none;
+    }
+    .container_2{
+        width: 100%;
+        height: 100vh;
+    }
+    .logo{
+        width: 20%;
+        height: 70px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .text{
+        width: 100%;
+        height: 80px;
+        margin-top: 2rem;
+    }
+    .text h1{
+        font-size: 45px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    .buttons{
+        width: 90%;
+        height: 40vh;
+        margin-top: 10px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons h2{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    hr{
+        width: 190px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin-left: 80px;
+    }
+    .sub-button{
+        width: 90%;
+        height: 13vh;
+        margin-top: 40px;
+        margin-left: 30px;  
+    }
+    .sub-button p{
+        padding-left: 23px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container_2{
+        width: 100%;
+        height: 100vh;
+    }
+    .logo{
+        width: 20%;
+        height: 70px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .text{
+        width: 100%;
+        height: 80px;
+        margin-top: 2rem;
+    }
+    .text h1{
+        font-size: 45px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    .buttons{
+        width: 100%;
+        height: 40vh;
+        margin-top: 10px;
+        margin-left: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons h2{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    .buttons p{
+        padding-left: 15px;
+    }
+    hr{
+        width: 190px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin-left: 80px;
+    }
+    .sub-button{
+        width: 100%;
+        height: 13vh;
+        margin-top: 40px;
+        margin-left: 1px;  
+    }
+    .sub-button p{
+        padding-left: 23px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .container_2{
+        width: 100%;
+        height: 100vh;
+    }
+    .logo{
+        width: 20%;
+        height: 70px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .text{
+        width: 100%;
+        height: 80px;
+        margin-top: 2rem;
+    }
+    .text h1{
+        font-size: 35px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    .buttons{
+        width: 100%;
+        height: 40vh;
+        margin-top: 10px;
+        margin-left: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons h2{
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    .buttons p{
+        padding-left: 10px;
+    }
+    hr{
+        width: 190px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin-left: 60px;
+    }
+    .sub-button{
+        width: 100%;
+        height: 13vh;
+        margin-top: 40px;
+        margin-left: 1px;  
+    }
+    .sub-button p{
+        padding-left: 23px;
+    }
+}
