@@ -15,14 +15,14 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(191, 200, 202);
+    background-color: #fff;
 }
 .container1 .logo{
-    width: 15%;
-    height: 60px;
+    width: 35%;
+    height: 70px;
     margin-top: 10px;
-    margin-left: 50px;
-    background-image: url(/images/download-removebg-preview\ \(1\).png);
+    margin-left: 5px;
+    background-image: url(/images/logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -31,7 +31,7 @@
     width: 100%;
     height: 75vh;
     padding-top: 2px;
-    background-color: rgb(191, 200, 202);
+    background-color: #fff;
 }
 .sidebar ul{
     padding-left: 20px;
@@ -208,7 +208,7 @@
     width: 50%;
     height: 100vh;
     margin-left: 342px;
-    background-color: rgb(191, 200, 202);
+    background-color: #fff;
 }
 .navBar{
     width: 95%;
@@ -218,7 +218,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(191, 200, 202);
+    background-color: #fff;
 }
 .heading h1{
     font-size: 30px;
@@ -234,7 +234,7 @@
     margin: auto;
     display: flex;
     align-items: center;
-    background-color: rgb(191, 200, 202);
+    background-color: #fff;
 }
 .pic{
     width: 60px;
@@ -242,7 +242,7 @@
     margin-left: 2px;
     margin-right: 15px;
     border-radius: 25px;
-    background-color: rgb(191, 200, 202);
+    background-color: #fff;
 }
 .pic img{
     width: 60px;
@@ -274,7 +274,7 @@
     margin: auto;
     margin-top: 11px;
     margin-bottom: 11px;
-    background-color: rgb(191, 200, 202);
+    background-color: #fff;
 }
 .emoji ul{
     display: flex;
@@ -314,7 +314,11 @@ hr{
     height: 75vh;
     padding-top: 9px;
     display: flex;
-    background-color: rgb(191, 200, 202);
+    background-color: #fff;
+    transition: .3s;
+}
+.tweets:hover{
+    background-color: #f7f9f9;
 }
 .profile-pic-dash{
     width: 13%;
@@ -371,17 +375,17 @@ hr{
 .tweet-emoji{
     width: 90%;
 }
-.fa-comment,.fa-retweet,.fa-heart,.fa-share{
+.fa-comment-o,.fa-retweet,.fa-heart-o,.fa-share{
     font-size:x-large;
     transition: .4s;
 }
-.fa-comment:hover{
+.fa-comment-o:hover{
     color: rgb(27, 132, 192);
 }
 .fa-retweet:hover{
     color: rgb(27, 192, 82);
 }
-.fa-heart:hover{
+.fa-heart-o:hover{
     color: rgb(180, 48, 110);
 }
 .fa-share:hover{
