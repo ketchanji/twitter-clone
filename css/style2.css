@@ -10,25 +10,31 @@
 .container1{
     width: 25%;
     height: 100vh;
-    border-left: 4px solid black;
+    border-right: 2px solid black;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
     background-color: rgb(191, 200, 202);
 }
 .container1 .logo{
     width: 15%;
-    height: 50px;
+    height: 60px;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 50px;
     background-image: url(/images/download-removebg-preview\ \(1\).png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .sidebar{
     width: 100%;
     height: 75vh;
     padding-top: 2px;
-    padding-left: 40px;
     background-color: rgb(191, 200, 202);
+}
+.sidebar ul{
+    padding-left: 20px;
 }
 .sidebar ul li{
     list-style: none;
@@ -199,9 +205,10 @@
 /* next face the middle container  */
 
 .container2{
-    width: 40%;
+    width: 50%;
     height: 100vh;
-    background-color: blue;
+    margin-left: 342px;
+    background-color: rgb(191, 200, 202);
 }
 .navBar{
     width: 95%;
@@ -211,7 +218,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(191, 200, 202);
 }
 .heading h1{
     font-size: 30px;
@@ -227,7 +234,7 @@
     margin: auto;
     display: flex;
     align-items: center;
-    background-color: blueviolet;
+    background-color: rgb(191, 200, 202);
 }
 .pic{
     width: 60px;
@@ -235,7 +242,7 @@
     margin-left: 2px;
     margin-right: 15px;
     border-radius: 25px;
-    background-color: aqua;
+    background-color: rgb(191, 200, 202);
 }
 .pic img{
     width: 60px;
@@ -255,10 +262,131 @@
     font-size: 25px;
     color: rgb(29, 21, 21);
 }
-.post hr{
+.input input:focus {
+    outline: none;
 }
-
-
+.emoji{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    background-color: rgb(191, 200, 202);
+}
+.emoji ul{
+    display: flex;
+    align-items: center;
+}
+.emoji ul li{
+    list-style: none;
+}
+.emoji a{
+    text-decoration: none;
+    color: #fff;
+}
+.fa-picture-o, .fa-file-video-o, .fa-list-ul, .fa-smile-o,.fa-calendar-minus-o, .fa-map-marker{
+    color: rgb(12, 112, 179);
+}
+.emoji .left .btn2{
+    width: 90px;
+    height: 40px;
+    margin-right: 9px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(9, 130, 185);
+}
+hr{
+    width: 100%;
+    height: 0.001px;
+}
+.new-notification{
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    margin-top: 22px;
+    color: rgb(52, 147, 211);
+}
+.tweets{
+    width: 100%;
+    height: 75vh;
+    padding-top: 9px;
+    display: flex;
+    background-color: rgb(191, 200, 202);
+}
+.profile-pic-dash{
+    width: 13%;
+    height: 80px;
+    margin-right: 9px;
+}
+.profile-pic-dash img{
+    width: 80%;
+    height: 70px;
+    margin-left: 8px;
+    margin-top: 3px;
+    border-radius: 40px;
+}
+.profile-name-dash{
+    width: 82%;
+    height: auto;
+}
+.profile-name-dash .name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-name-dash h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.profile-name-dash p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.profile-name-dash .account-post{
+    width: 450px;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.profile-name-dash img{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+}
+.profile-name-dash ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-name-dash ul li{
+    list-style: none;
+}
+.tweet-emoji{
+    width: 90%;
+}
+.fa-comment,.fa-retweet,.fa-heart,.fa-share{
+    font-size:x-large;
+    transition: .4s;
+}
+.fa-comment:hover{
+    color: rgb(27, 132, 192);
+}
+.fa-retweet:hover{
+    color: rgb(27, 192, 82);
+}
+.fa-heart:hover{
+    color: rgb(180, 48, 110);
+}
+.fa-share:hover{
+    color: rgb(27, 132, 192);
+}
 
 
 
