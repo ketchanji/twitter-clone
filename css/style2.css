@@ -10,7 +10,7 @@
 .container1{
     width: 25%;
     height: 100vh;
-    border-right: 2px solid black;
+    border-right: 1px solid black;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -207,24 +207,29 @@
 .container2{
     width: 50%;
     height: 100vh;
-    margin-left: 342px;
+    margin-left: 339px;
+    border-right: 1px solid black;
     background-color: #fff;
 }
 .navBar{
-    width: 95%;
-    height: 40px;
+    width: 49%;
+    height: 50px;
     margin: auto;
-    margin-bottom: 12px;
+    margin-bottom: 30px;
+    position: fixed;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.911);
 }
 .heading h1{
+    margin-left: 20px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .star2 i{
+    margin-right: 20px;
     color: rgb(51, 117, 179);
 }
 
@@ -232,6 +237,7 @@
     width: 95%;
     height: 90px;
     margin: auto;
+    margin-top: 48px;
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -372,6 +378,9 @@ hr{
 .profile-name-dash ul li{
     list-style: none;
 }
+.profile-name-dash span{
+    color: rgb(43, 123, 170);
+}
 .tweet-emoji{
     width: 90%;
 }
@@ -394,14 +403,77 @@ hr{
 
 
 
-
-
-
-
-
+/* search side bar */
 
 .container3{
-    width: 35%;
+    width: 28%;
     height: 100vh;
+    position: fixed;
+    margin-left: 1000px;
     background-color: blueviolet;
+}
+.search{
+    width: 25%;
+    height: 50px;
+    margin: auto; 
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: rgb(223, 231, 231);
+}
+.search i{
+    width: 10%;
+    height: 30px;
+    font-size: x-large;
+    margin-top: 3px;
+}
+.search input{
+    width: 90%;
+    height: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 15px;
+    border: none;
+    padding-left: 5px;
+    background-color: rgb(223, 231, 231);
+}
+.search input:focus {
+    outline: none;
+}
+
+.top-tweets{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 7rem;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.header h1{
+    color: #161d1d;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.person-name h1{
+    font-size: 19px;
 }
