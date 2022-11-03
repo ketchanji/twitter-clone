@@ -41,7 +41,7 @@
 }
 .sidebar ul li a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
 }
 .sidebar .home{
@@ -147,18 +147,18 @@
     margin-right: 14px;
 }
 .sidebar .btn2{
-    width: 60%;
+    width: 50%;
     height: 50px;
     margin-top: 25px;
     border: none;
-    border-radius: 23px;
+    border-radius: 20px;
     text-align: center;
     color: #fff;
     background-color: rgb(33, 79, 204);
 }
 .sidebar ul li .btn2 a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
 }
 .sub-profile{
@@ -194,7 +194,7 @@
     background-color: black;
 }
 .name h1{
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
@@ -285,6 +285,7 @@
 .emoji ul{
     display: flex;
     align-items: center;
+    padding: 3px;
 }
 .emoji ul li{
     list-style: none;
@@ -294,7 +295,20 @@
     color: #fff;
 }
 .fa-picture-o, .fa-file-video-o, .fa-list-ul, .fa-smile-o,.fa-calendar-minus-o, .fa-map-marker{
-    color: rgb(12, 112, 179);
+    width: 30px;
+    height: 40px;
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+    padding-bottom: 1px;
+    border-radius: 50%;
+    color: #1d9bf0;
+    transition: .4s ease;
+}
+.fa-picture-o:hover, .fa-file-video-o:hover, .fa-list-ul:hover, .fa-smile-o:hover,.fa-calendar-minus-o:hover{
+    background: rgba(97, 184, 206, 0.432);
 }
 .emoji .left .btn2{
     width: 90px;
@@ -302,7 +316,7 @@
     margin-right: 9px;
     border: none;
     border-radius: 15px;
-    background-color: rgb(9, 130, 185);
+    background-color: #8ecdf8;
 }
 hr{
     width: 100%;
@@ -408,16 +422,17 @@ hr{
 .container3{
     width: 28%;
     height: 100vh;
+    border-left: 1px solid black;
     position: fixed;
     margin-left: 1000px;
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
 }
 .search{
     width: 25%;
     height: 50px;
     margin: auto; 
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 6px;
     border-radius: 30px;
     position: fixed;
     display: flex;
@@ -428,7 +443,6 @@ hr{
     width: 10%;
     height: 30px;
     font-size: x-large;
-    margin-top: 3px;
 }
 .search input{
     width: 90%;
@@ -450,7 +464,7 @@ hr{
     margin: auto;
     margin-top: 7rem;
     border-radius: 10px;
-    background-color: aqua;
+    background-color: #f7f9f9;
 }
 .header{
     width: 100%;
@@ -472,8 +486,29 @@ hr{
     padding-bottom: 10px;
     justify-content: space-between;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: #f7f9f9;
+}
+.inner:hover{
+    background-color: rgb(239,243,244);
 }
 .person-name h1{
     font-size: 19px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d2020;
+}
+.tweets-number p, .category p{
+    color: rgb(88, 88, 88);
+}
+.fa-ellipsis-h{
+    width: 30px;
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 13px;
+    border-radius: 50%;
+    transition: .4s ease;
+}
+.fa-ellipsis-h:hover{
+    color: rgb(36, 88, 185);
+    background: rgba(37, 128, 151, 0.5);
 }
