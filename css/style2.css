@@ -10,7 +10,7 @@
 .container1{
     width: 25%;
     height: 100vh;
-    border-right: 1px solid black;
+    border-right: 1px solid rgb(153, 153, 153);
     position: fixed;
     z-index: 1;
     top: 0;
@@ -422,7 +422,7 @@ hr{
 .container3{
     width: 28%;
     height: 100vh;
-    border-left: 1px solid black;
+    border-left: 1px solid rgb(153, 153, 153);
     position: fixed;
     margin-left: 1000px;
     background-color: rgb(255, 255, 255);
@@ -481,6 +481,7 @@ hr{
 .inner{
     width: 100%;
     height: auto;
+    cursor: pointer;
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -506,6 +507,7 @@ hr{
     padding-left: 15px;
     padding-top: 13px;
     border-radius: 50%;
+    cursor: pointer;
     transition: .4s ease;
 }
 .fa-ellipsis-h:hover{
