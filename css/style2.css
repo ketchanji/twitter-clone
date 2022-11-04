@@ -399,8 +399,12 @@ hr{
     width: 90%;
 }
 .fa-comment-o,.fa-retweet,.fa-heart-o,.fa-share{
-    font-size:x-large;
+    font-size: 19px;
+    font-weight: 200;
     transition: .4s;
+}
+.hr{
+    margin-top: 20px;
 }
 .fa-comment-o:hover{
     color: rgb(27, 132, 192);
