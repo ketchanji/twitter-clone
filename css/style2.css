@@ -147,14 +147,14 @@
     margin-right: 14px;
 }
 .sidebar .btn2{
-    width: 50%;
+    width: 60%;
     height: 50px;
     margin-top: 25px;
     border: none;
-    border-radius: 20px;
+    border-radius: 25px;
     text-align: center;
     color: #fff;
-    background-color: rgb(33, 79, 204);
+    background-color: #1d9bf0;
 }
 .sidebar ul li .btn2 a{
     text-decoration: none;
@@ -464,7 +464,9 @@ hr{
 
 .top-tweets{
     width: 80%;
-    height: auto;
+    height: 80vh;
+    overflow: scroll;
+    overflow-x: hidden;
     margin: auto;
     margin-top: 7rem;
     border-radius: 10px;
